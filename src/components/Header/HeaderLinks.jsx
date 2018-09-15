@@ -1,5 +1,6 @@
 import React from "react";
 import classNames from "classnames";
+import {Link} from 'react-router-dom';
 // @material-ui/core components
 import withStyles from "@material-ui/core/styles/withStyles";
 import MenuItem from "@material-ui/core/MenuItem";
@@ -156,6 +157,7 @@ class HeaderLinks extends React.Component {
           simple={!(window.innerWidth > 959)}
           aria-label="Person"
           className={classes.buttonLink}
+          href="/login"
         >
           <Person className={classes.icons} />
           <Hidden mdUp implementation="css">

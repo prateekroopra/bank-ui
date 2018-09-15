@@ -1,0 +1,178 @@
+
+@font-face {
+    font-family: 'Oswald_Light';
+    src: url('../webfonts/Oswald-Light.eot');
+    src: url('../webfonts/Oswald-Light.eot?#iefix') format('embedded-opentype'),
+        url('../webfonts/Oswald-Light.woff2') format('woff2'),
+        url('../webfonts/Oswald-Light.woff') format('woff'),
+        url('../webfonts/Oswald-Light.ttf') format('truetype'),
+        url('../webfonts/Oswald-Light.svg#Oswald-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Oswald_Bold';
+    src: url('../webfonts/Oswald-Bold.eot');
+    src: url('../webfonts/Oswald-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../webfonts/Oswald-Bold.woff2') format('woff2'),
+        url('../webfonts/Oswald-Bold.woff') format('woff'),
+        url('../webfonts/Oswald-Bold.ttf') format('truetype'),
+        url('../webfonts/Oswald-Bold.svg#Oswald-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Oswald_Regular';
+    src: url('../webfonts/Oswald-Regular.eot');
+    src: url('../webfonts/Oswald-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../webfonts/Oswald-Regular.woff2') format('woff2'),
+        url('../webfonts/Oswald-Regular.woff') format('woff'),
+        url('../webfonts/Oswald-Regular.ttf') format('truetype'),
+        url('../webfonts/Oswald-Regular.svg#Oswald-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GothamRounded_Book';
+    src: url('../webfonts/GothamRounded-Book.eot');
+    src: url('../webfonts/GothamRounded-Book.eot?#iefix') format('embedded-opentype'),
+        url('../webfonts/GothamRounded-Book.woff2') format('woff2'),
+        url('../webfonts/GothamRounded-Book.woff') format('woff'),
+        url('../webfonts/GothamRounded-Book.ttf') format('truetype'),
+        url('../webfonts/GothamRounded-Book.svg#GothamRounded-Book') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GothamRounded_Light';
+    src: url('../webfonts/GothamRounded-Light.eot');
+    src: url('../webfonts/GothamRounded-Light.eot?#iefix') format('embedded-opentype'),
+        url('../webfonts/GothamRounded-Light.woff2') format('woff2'),
+        url('../webfonts/GothamRounded-Light.woff') format('woff'),
+        url('../webfonts/GothamRounded-Light.ttf') format('truetype'),
+        url('../webfonts/GothamRounded-Light.svg#GothamRounded-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GothamRounded_Medium';
+    src: url('../webfonts/GothamRounded-Medium.eot');
+    src: url('../webfonts/GothamRounded-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../webfonts/GothamRounded-Medium.woff2') format('woff2'),
+        url('../webfonts/GothamRounded-Medium.woff') format('woff'),
+        url('../webfonts/GothamRounded-Medium.ttf') format('truetype'),
+        url('../webfonts/GothamRounded-Medium.svg#GothamRounded-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GothamRounded_Bolditalic';
+    src: url('../webfonts/GothamRounded-BoldItalic.eot');
+    src: url('../webfonts/GothamRounded-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../webfonts/GothamRounded-BoldItalic.woff2') format('woff2'),
+        url('../webfonts/GothamRounded-BoldItalic.woff') format('woff'),
+        url('../webfonts/GothamRounded-BoldItalic.ttf') format('truetype'),
+        url('../webfonts/GothamRounded-BoldItalic.svg#GothamRounded-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'GothamRounded_Bold';
+    src: url('../webfonts/GothamRounded-Bold.eot');
+    src: url('../webfonts/GothamRounded-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../webfonts/GothamRounded-Bold.woff2') format('woff2'),
+        url('../webfonts/GothamRounded-Bold.woff') format('woff'),
+        url('../webfonts/GothamRounded-Bold.ttf') format('truetype'),
+        url('../webfonts/GothamRounded-Bold.svg#GothamRounded-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+/*body{ font-family:'GothamRounded_Book', Arial, Helvetica, sans-serif; overflow-x:hidden;}*/
+header{background-color: #0c2074; padding:10px 0px; position:relative; z-index:999;}
+header .leftlogo{ float:left;}
+header .leftlogo img{ height:40px;}
+header .leftmenu{ float:left; margin-left:30px;}
+header .leftmenu ul{ margin:0px auto; padding:0px;}
+header .leftmenu ul li{ list-style:none; display:inline-block; padding:0px 10px;}
+header .leftmenu ul li a{ color:#fff; font-size:14px; text-decoration:none;padding: 10px 0; display: block; font-size:16px; position:relative;}
+header .leftmenu ul li a:after{ content:''; display:block; width:0%; position:absolute; height:2px; background-color:#fff; margin-top: 4px;transition: 1s ease; -webkit-transition: 1s ease; -o-transition: 1s ease; -moz-transition: 1s ease; left:50%; right:50%;}
+header .leftmenu ul li:hover a:after{ width:100%; left:0; right:0;}
+header .leftmenu ul li.current a:after{ width:100%; left:0; right:0;}
+header .leftmenu ul li.current a{ font-family: 'GothamRounded_Medium';}
+
+header .rightmenuwsearch{ float:right; margin-left:30px; position:relative;}
+header .rightmenuwsearch ul{ margin:0px auto; padding:0px;}
+header .rightmenuwsearch ul li{ list-style:none; display:inline-block; padding:0px 10px;}
+header .rightmenuwsearch ul li a{ color:#fff; font-size:14px; text-decoration:none;padding: 10px 0; display: block; font-size:16px; position:relative;}
+header .rightmenuwsearch ul li a:after{ content:''; display:block; width:0%; position:absolute; height:2px; background-color:#fff; margin-top: 4px;transition: 1s ease; -webkit-transition: 1s ease; -o-transition: 1s ease; -moz-transition: 1s ease; left:50%; right:50%;}
+header .rightmenuwsearch ul li:hover a:after{ width:100%; left:0; right:0;}
+header .rightmenuwsearch ul li.current a:after{ width:100%; left:0; right:0;}
+header .rightmenuwsearch ul li.current a{ font-family: 'GothamRounded_Medium';}
+#search{ position:relative;}
+#searchtoares{position: absolute; right: 0;    width: 300px;  margin-top: 13px; z-index:99; display:none;}
+#searchtoares .form-control{ border-radius:0px;}
+#searchtoares .serchbox{ width:80%; float:left; background-color:#fff;}
+#searchtoares .searchbtn{ width:20%; float:left;}
+header .rightmenuwsearch ul li:last-child a{ width:15px;}
+header .rightmenuwsearch ul li:last-child a:after{ display:none;}
+.addforsearch i:before{content: "\f00d" !important;}
+.baneerhomepage{ background-size:cover; background-attachment:fixed; height: -moz-calc(100vh - 62px);  height: -webkit-calc(100vh - 62px);  height: calc(100vh - 62px); position:relative;}
+.baneerhomepage:after{ width:100%; height:100%; display:block; content:''; top:0; bottom:0; right:0; left:0; background-color:rgba(0,0,0,0.6); z-index:1; position:absolute; }
+.baneerhomepage .innerbanner{ position:relative; z-index:9;}
+.innerbanner .bannertextleft{ width:60%; float:left; padding-right:5%; margin-top:200px;}
+.innerbanner .bannertextleft .bantxt{ color:#fff; text-shadow:0px 0px 15px #000; margin-bottom:25px; }
+.bannertxt1{font-size:38px; font-family: 'GothamRounded_Bold'; opacity:0;}
+.bannertxt2{font-size:32px; font-family: 'Oswald_Regular'; opacity:0;}
+.bannertxt3{font-size:28px;font-family: 'GothamRounded_Medium';  opacity:0;}
+.bannertxt1.startanimate1{ animation: move 2s; -webkit-animation: move 2s; opacity:1;}
+.bannertxt2.startanimate2{ animation: move 2s; -webkit-animation: move 2s; opacity:1;}
+.bannertxt3.startanimate3{ animation: move 2s; -webkit-animation: move 2s; opacity:1;}
+.bannerformright{ position:relative; width:30%; right:15px; background-color:rgba(12,32,116,0.9); border-radius:0px; padding:25px; float:right; margin-top:50px;    border: 2px solid #36499a;}
+.bannerformright h2{ color:#fff; font-family: 'GothamRounded_Medium'; margin-top:0px; text-align:center;}
+.bannerformright h2 span{ border-bottom:1px solid #fff; padding-bottom:5px;}
+.bannerformright label.formfieldtxt{ margin:10px 0; color:#fff; display:block;}
+.formattrlg{ margin-bottom:15px;}
+.remme{ display:inline-block; margin-left:15px; color:#fff; font-weight:normal; padding-left:21px;    padding-top: 3px;}
+.lgcheck{ height:20px; width:20px; position:absolute;}
+.lgbtnhome{ border-radius:5px; background-color:#03155f; color:#fff; border:1px solid #415298; width:100%; padding:12px 10px; margin:15px 0;font-family: 'Oswald_Regular'; letter-spacing:1px; font-size:18px;transition:1s;}
+.lgbtnhome:hover{ background-color:#0d2ba5; color:#fff; border:1px solid #0d2ba5; }
+label.ancorleft{ display:inline-block; font-weight:normal; float:left;}
+label.ancorleft a{ color:#fff; text-decoration:none; position:relative;}
+label.ancorleft a:after{ height:1px; background-color:#fff; content:''; display:block; width:0%; transition:1s;}
+label.ancorleft:hover a:after{ width:100%;}
+label.ancorright{ display:inline-block; font-weight:normal; float:right;}
+label.ancorright a{ color:#fff; text-decoration:none; position:relative;}
+label.ancorright a{ color:#fff; text-decoration:none; position:relative;}
+label.ancorright a:after{ height:1px; background-color:#fff; content:''; display:block; width:0%; transition:1s;}
+label.ancorright:hover a:after{ width:100%;}
+.whydologin{ line-height:20px; font-size:13px; color:#fff;font-family: 'GothamRounded_Light'; text-align:justify; margin-top:10px; }
+
+@keyframes move {
+  from {
+    margin-left: -100%;
+    width: 100%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+            
+@-webkit-keyframes move {
+    from {
+        margin-right: -100%;
+        width: 100%;
+    }
+}
+  
+
