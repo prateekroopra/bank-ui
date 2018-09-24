@@ -19,13 +19,6 @@ import UpgradeToPro from "views/UpgradeToPro/UpgradeToPro.jsx";
 
 const dashboardRoutes = [
   {
-    path: "/dashboard",
-    sidebarName: "Dashboard",
-    navbarName: "Bankta Dashboard",
-    icon: Dashboard,
-    component: DashboardPage
-  },
-  {
     path: "/table",
     sidebarName: "Account",
     navbarName: "Account",
@@ -47,11 +40,11 @@ const dashboardRoutes = [
     component: Typography
   },
   {
-    path: "/icons",
+    path: "/dashboard",
     sidebarName: "Reports",
-    navbarName: "Reports",
-    icon: BubbleChart,
-    component: Icons
+    navbarName: "Bankta Dashboard",
+    icon: Dashboard,
+    component: DashboardPage
   },
   {
     path: "/maps",
@@ -67,7 +60,7 @@ const dashboardRoutes = [
     icon: Notifications,
     component: NotificationsPage
   },
-  { redirect: true, path: "/", to: "/dashboard", navbarName: "Redirect" }
+  { redirect: true, path: "/", to: "/table", navbarName: "Redirect" }
 ];
 
 export default dashboardRoutes;

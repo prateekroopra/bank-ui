@@ -56,7 +56,7 @@ function TypographyPage(props) {
   return (
     <div>
     <GridContainer>
-        <GridItem xs={12} sm={12} md={8}>
+        <GridItem xs={12} sm={12} md={12}>
           <Card>
             <CardHeader color="danger">
               <h4 className={classes.cardTitleWhite}>Transfer</h4>
@@ -75,6 +75,15 @@ function TypographyPage(props) {
                 <GridItem xs={12} sm={12} md={5}>
                   <CustomInput
                     labelText="Amount"
+                    id="company-disabled"
+                    formControlProps={{
+                      fullWidth: true
+                    }}
+                  />
+                </GridItem>
+                <GridItem xs={12} sm={12} md={12}>
+                  <CustomInput
+                    labelText="Description"
                     id="company-disabled"
                     formControlProps={{
                       fullWidth: true

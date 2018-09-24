@@ -39,7 +39,7 @@ function UserProfile(props) {
   return (
     <div>
       <GridContainer>
-        <GridItem xs={12} sm={12} md={8}>
+        <GridItem xs={12} sm={12} md={12}>
           <Card>
             <CardHeader color="primary">
               <h4 className={classes.cardTitleWhite}>Load Money</h4>
@@ -71,24 +71,7 @@ function UserProfile(props) {
             </CardFooter>
           </Card>
         </GridItem>
-        <GridItem xs={12} sm={12} md={4}>
-          <Card profile>
-            <CardAvatar profile>
-              <a href="#pablo" onClick={e => e.preventDefault()}>
-                <img src={avatar} alt="..." />
-              </a>
-            </CardAvatar>
-            <CardBody profile>
-              <h4 className={classes.cardTitle}>Alec Thompson</h4>
-              <p className={classes.description}>
-               This is a profile description that can be loaded to describe the profile and any relevant info.
-              </p>
-              <Button color="primary" round>
-                Follow
-              </Button>
-            </CardBody>
-          </Card>
-        </GridItem>
+        
       </GridContainer>
     </div>
   );

@@ -43,7 +43,30 @@ function TableList(props) {
   const { classes } = props;
   return (
     <GridContainer>
-      <GridItem xs={12} sm={12} md={12}>
+      <GridItem xs={12} sm={12} md={3}>
+      <br/><br/>
+      <h6><b>Account Status</b></h6>
+      <p>Verified</p>
+      <br/>
+      <h6><b>Account Number</b></h6>
+      <div class="MuiFormControl-root-213 MuiFormControl-fullWidth-216 undefined">
+              
+              <div class="MuiInput-root-217 MuiInput-underline-221 CustomInput-underline-204">
+                 <select className="MuiInput-input-225"><option>AC-124467</option></select>
+                 </div>
+      </div> 
+
+      <br/>
+      <br/>
+      <br/>
+
+       <h6><b>Current Balance</b></h6>
+        <p>USD 0.00</p>
+        <p>USD 0.00 Available</p>
+        <b>Account Type</b>: Savings <br/>
+        <b>Currency</b>: USD
+      </GridItem>
+      <GridItem xs={12} sm={12} md={9}>
         <Card>
           <CardHeader color="primary">
             <h4 className={classes.cardTitleWhite}>Balance Table</h4>
